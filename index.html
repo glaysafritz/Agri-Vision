@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SACR – Soil Analysis and Crop Recommendation</title>
 <meta name="description" content="Offline soil analysis and crop recommendation app for farmers in Guimbal, Iloilo.">
-<link rel="icon" href="icon.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="icon.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#01875f">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -99,7 +102,8 @@
   <div class="head">
     <div class="iconbox">
       <span>App icon</span>
-      <img src="icon.png" alt="SACR app icon" onerror="this.remove()">
+      <img src="icon.png" alt="SACR app icon"
+           onerror="if(this.src.indexOf('icon.png')>-1){this.src='icon.webp';}else{this.remove();}">
     </div>
     <div>
       <h1>SACR: Soil Analysis and Crop Recommendation</h1>
