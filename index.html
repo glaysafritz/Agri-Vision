@@ -97,8 +97,7 @@
 <body>
 <main>
 
-  <!-- ============ HEADER ============
-       Later: put icon.png beside this file and the box fills in by itself. -->
+  <!-- ============ HEADER ============-->
   <div class="head">
     <div class="iconbox">
       <span>App icon</span>
@@ -120,17 +119,12 @@
     <div class="stat"><b>Free</b><span>no payment</span></div>
   </div>
 
-  <!-- ============ INSTALL BUTTON ============
-       Right now this is a placeholder, no APK connected yet.
-       Later: replace the whole <button> line with this link ->
-       <a class="install" href="https://github.com/USERNAME/sacr/releases/latest/download/sacr.apk">Install</a>
-  -->
+  <!-- ============ INSTALL BUTTON ============-->
   <button class="install" id="installBtn">Install</button>
   <p class="note">Free download for Android phones. <a href="#how-to-install">Read the install steps first.</a></p>
   <div class="toast" id="toast">Download link not connected yet. This is the page design only.</div>
 
-  <!-- ============ SCREENSHOTS ============
-       The files 1.jpg to 5.jpg sit beside this file. -->
+  <!-- ============ SCREENSHOTS ===========-->
   <div class="shots" aria-label="App screenshots">
     <div class="shot"><span>Screenshot 1</span><img src="1.jpg" alt="Home screen" onerror="this.remove()"></div>
     <div class="shot"><span>Screenshot 2</span><img src="2.jpg" alt="Soil analysis result" onerror="this.remove()"></div>
@@ -166,8 +160,7 @@
       <small>Pindutin ang Install, tapos Open.</small></li>
   </ol>
 
-  <!-- ============ DATA SAFETY ============
-       Edit these lines so they match what your app really does. -->
+  <!-- ============ DATA SAFETY ============ -->
   <h2>Data safety</h2>
   <div class="card">
     <p>Your photos stay on your phone and are not uploaded anywhere.</p>
@@ -175,8 +168,7 @@
     <p>No account or sign-up is needed.</p>
   </div>
 
-  <!-- ============ APP INFO ============
-       Fill these in once you build the APK. -->
+  <!-- ============ APP INFO ============ -->
   <h2>App info</h2>
   <div class="info">
     <div><b>Version</b><span>1.0.0</span></div>
@@ -192,13 +184,7 @@
 
 </main>
 <script>
-  /* =========================================================
-     THE ONLY LINE YOU EVER NEED TO CHANGE
-
-     Right now it is false, so the Install button just shows
-     a note. Once you upload sacr.apk to GitHub Releases,
-     change false to true below and the button downloads it.
-     ========================================================= */
+  /* ========================================================= */
   var APK_READY = false;
 
   var APK_LINK = "https://github.com/glaysafritz/sacr/releases/latest/download/sacr.apk";
